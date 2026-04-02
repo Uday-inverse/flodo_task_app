@@ -61,9 +61,9 @@ Make sure the following are installed:
 Verify Flutter installation:
 ```bash
 flutter doctor
-Steps to Run the Project
-Clone the repository:
-git clone 
+**Steps to Run the Project**
+**##Clone the repository:**
+git clone <https://github.com/Uday-inverse/flodo_task_app.git>
 Navigate to the project folder:
 cd flodo_task_app
 Install dependencies:
