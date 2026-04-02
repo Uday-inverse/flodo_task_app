@@ -48,3 +48,27 @@ lib/
   services/
   widgets/
   main.dart
+## Setup Instructions
+
+### Prerequisites
+Make sure the following are installed:
+
+- Flutter SDK 
+- Android Studio or VS Code
+- Android Emulator or Physical Device
+- Git
+
+Verify Flutter installation:
+```bash
+flutter doctor
+Steps to Run the Project
+Clone the repository:
+git clone 
+Navigate to the project folder:
+cd flodo_task_app
+Install dependencies:
+flutter pub get
+Start an emulator or connect a device:
+flutter devices
+Run the application:
+flutter run
