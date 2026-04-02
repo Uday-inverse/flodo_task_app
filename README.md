@@ -1,17 +1,50 @@
-# flodo_task_app
+# Flodo Task Management App
 
-A new Flutter project.
+A Flutter-based Task Management application built for the Flodo AI take-home assignment.
 
-## Getting Started
+## Chosen Track
+**Track B: Mobile Specialist**
 
-This project is a starting point for a Flutter application.
+## Stretch Goal
+No optional stretch goal was implemented.  
+I prioritized completing all required core features with a polished and stable user experience.
 
-A few resources to get you started if this is your first Flutter project:
+## Features Implemented
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Create, read, update, and delete tasks
+- Each task includes:
+  - Title
+  - Description
+  - Due Date
+  - Status (`To-Do`, `In Progress`, `Done`)
+  - Optional `Blocked By` dependency
+- Main list view for all tasks
+- Blocked task UI:
+  - If a task is blocked by another unfinished task, it appears visually distinct
+- Search tasks by title
+- Filter tasks by status
+- Draft persistence:
+  - If the user leaves the task creation screen before saving, typed input is restored
+- Simulated 2-second delay on task creation and update
+- Loading state during save/update
+- Save button disabled while loading
+- Local persistence across app restarts
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+- Flutter
+- Dart
+- Provider
+- Hive
+- SharedPreferences
+- Intl
+- UUID
+
+## Project Structure
+text
+lib/
+  models/
+  providers/
+  screens/
+  services/
+  widgets/
+  main.dart
